@@ -1,4 +1,4 @@
-; This file describes the core project requirements for BuildKit 7.x. Several
+; This file describes the core project requirements for  AdmKit based on BuildKit 7.x. Several
 ; patches against Drupal core and their associated issue numbers have been
 ; included here for reference.
 ;
@@ -13,7 +13,7 @@ core = 7.x
 projects[drupal][type] = core
 projects[drupal][download][type] = cvs
 projects[drupal][download][root] = :pserver:anonymous:anonymous@cvs.drupal.org:/cvs/drupal
-projects[drupal][download][module] = drupal
+projects[drupal][d  ownload][module] = drupal
 projects[drupal][download][date] = 2010-09-29
 
 ; Create new boolean field "Cannot create references to/from string offsets nor overloaded objects"
